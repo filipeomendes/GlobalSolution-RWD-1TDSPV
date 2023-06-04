@@ -7,3 +7,125 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+.capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10.4rem;
+}
+
+.capa img{
+    object-fit: cover;
+    opacity: 0.5;
+    max-height: 800px;
+    min-height: 800px;
+    object-fit: cover;
+}
+
+.conteudo-primario h1{
+    display: flex;
+    font-size: 7rem;
+    position: absolute;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-82%, 0%);
+    color: #fff;
+    justify-content: center;
+}
+
+.conteudo-primario{
+    position: relative;
+}
+
+.conteudo-esquerdo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    gap: 20rem;
+    align-items: center;
+    padding: 0rem 15rem 0rem 15rem;
+    letter-spacing: 3px;
+}
+
+.conteudo-esquerdo-div h2{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.conteudo-esquerdo-div p{
+    font-size: 2rem;
+    max-width: 150rem;
+}
+
+.conteudo-esquerdo img{
+    max-width: 80rem;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo-direito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    gap: 20rem;
+    align-items: center;
+    padding: 3rem 15rem 3rem 15rem;
+    letter-spacing: 3px;
+}
+
+.conteudo-direito-div p{
+    font-size: 2rem;
+    max-width: 150rem;
+}
+
+.conteudo-direito-div h2{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.conteudo-direito img{
+    max-width: 80rem;
+    border-radius: 1.5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    background-color: #4e4e4e;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.social-media-nav img{
+    max-width: 10rem;
+    padding: 2rem;
+    margin-bottom: 0rem;
+}
+
+.membros{
+    font-size: 1.5rem;
+}
+
+.copyright{
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+}
