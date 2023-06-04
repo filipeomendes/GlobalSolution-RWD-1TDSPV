@@ -113,3 +113,19 @@ footer{
     padding: 2rem;
     text-align: center;
 }
+
+.social-media-nav img{
+    max-width: 10rem;
+    padding: 2rem;
+    margin-bottom: 0rem;
+}
+
+.membros{
+    font-size: 1.5rem;
+}
+
+.copyright{
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+}
