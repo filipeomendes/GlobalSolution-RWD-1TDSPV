@@ -94,3 +94,15 @@ body{
     font-size: 2rem;
     max-width: 150rem;
 }
+
+.conteudo-direito-div h2{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.conteudo-direito img{
+    max-width: 80rem;
+    border-radius: 1.5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
