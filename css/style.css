@@ -66,3 +66,14 @@ body{
     font-weight: 700;
     margin-bottom: 5rem;
 }
+
+.conteudo-esquerdo-div p{
+    font-size: 2rem;
+    max-width: 150rem;
+}
+
+.conteudo-esquerdo img{
+    max-width: 80rem;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
