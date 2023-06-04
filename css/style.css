@@ -106,3 +106,10 @@ body{
     border-radius: 1.5%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
+
+footer{
+    background-color: #4e4e4e;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
