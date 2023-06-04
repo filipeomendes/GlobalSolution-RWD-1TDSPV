@@ -1,0 +1,19 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.cabecalho img{
+    box-sizing: border-box;
+    display: block;
+    width: 10rem;
+}
