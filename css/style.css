@@ -17,3 +17,34 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #ebebeb;
 }
+
+.capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10.4rem;
+}
+
+.capa img{
+    object-fit: cover;
+    opacity: 0.5;
+    max-height: 800px;
+    min-height: 800px;
+    object-fit: cover;
+}
+
+.conteudo-primario h1{
+    display: flex;
+    font-size: 7rem;
+    position: absolute;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-82%, 0%);
+    color: #fff;
+    justify-content: center;
+}
+
+.conteudo-primario{
+    position: relative;
+}
