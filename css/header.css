@@ -17,3 +17,27 @@
     display: block;
     width: 10rem;
 }
+
+.cabecalho nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    height: 100%;
+    align-items: center;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #48b400;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cabecalho a:hover{
+    color: #48b400;
+    font-weight: 600;
+    cursor: pointer;
+}
