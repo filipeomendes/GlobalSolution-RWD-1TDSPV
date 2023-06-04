@@ -7,3 +7,13 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
