@@ -16,12 +16,12 @@
     box-sizing: border-box;
     display: block;
     width: 10rem;
+    margin-right: 100rem;
 }
 
 .cabecalho nav{
     display: flex;
     justify-content: space-between;
-    gap: 5rem;
     height: 100%;
     align-items: center;
 }
@@ -34,6 +34,8 @@
     color: #48b400;
     text-align: center;
     padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .cabecalho a:hover{
