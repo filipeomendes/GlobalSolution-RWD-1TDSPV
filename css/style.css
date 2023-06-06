@@ -150,3 +150,38 @@ footer img{
     margin-top: 2rem;
     font-size: 1.5rem;
 }
+
+@media (max-width: 1920px) {
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .cabecalho img{
+        width: 10rem;
+        margin-right: 30rem;
+    }
+    
+    .cabecalho a{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .capa img{
+        width: 190.3rem;
+    }
+
+    .conteudo-primario h1{
+        top: 45%;
+        font-size: 6rem;
+    }
+
+    .conteudo-esquerdo img{
+        max-width: 65rem;
+    }
+
+    .conteudo-direito img{
+        max-width: 65rem;
+    }
+}
