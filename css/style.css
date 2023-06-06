@@ -8,6 +8,15 @@
     text-decoration: none;
 }
 
+::-webkit-scrollbar{
+    width: 1.7rem;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #708662;
+}
+
 html{
     font-size: 62.5%;
 }
@@ -16,6 +25,7 @@ body{
     box-sizing: 100%;
     font-family: 'Roboto', sans-serif;
     background-color: #ebebeb;
+    overflow-x: hidden;
 }
 
 .capa{
@@ -26,27 +36,24 @@ body{
 }
 
 .capa img{
+    display: flex;
     object-fit: cover;
     opacity: 0.5;
-    max-height: 800px;
-    min-height: 800px;
+    width: 342.5rem;
     object-fit: cover;
 }
 
 .conteudo-primario h1{
     display: flex;
-    font-size: 7rem;
-    position: absolute;
+    font-size: 9rem;
+    position: relative;
     height: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-82%, 0%);
+    margin-top: -20%;
+    margin-bottom: 20%;
+    margin-left: 5%;
+    max-width: 55%;
     color: #fff;
     justify-content: center;
-}
-
-.conteudo-primario{
-    position: relative;
 }
 
 .conteudo-esquerdo{
@@ -62,17 +69,20 @@ body{
 }
 
 .conteudo-esquerdo-div h2{
+    display: flex;
     font-size: 5rem;
     font-weight: 700;
     margin-bottom: 5rem;
 }
 
 .conteudo-esquerdo-div p{
+    display: flex;
     font-size: 2rem;
     max-width: 150rem;
 }
 
 .conteudo-esquerdo img{
+    display: flex;
     max-width: 80rem;
     border-radius: 2%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -87,45 +97,56 @@ body{
     gap: 20rem;
     align-items: center;
     padding: 3rem 15rem 3rem 15rem;
-    letter-spacing: 3px;
 }
 
 .conteudo-direito-div p{
+    display: flex;
     font-size: 2rem;
     max-width: 150rem;
 }
 
 .conteudo-direito-div h2{
+    display: flex;
     font-size: 5rem;
     font-weight: 700;
     margin-bottom: 5rem;
 }
 
 .conteudo-direito img{
+    display: flex;
     max-width: 80rem;
     border-radius: 1.5%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-footer{
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
     background-color: #4e4e4e;
     color: #fff;
     padding: 2rem;
     text-align: center;
 }
 
-.social-media-nav img{
-    max-width: 10rem;
-    padding: 2rem;
-    margin-bottom: 0rem;
+footer img{
+    margin: 1rem 3rem 1rem 3rem;
+    height: 5rem;
 }
 
-.membros{
+.membros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.copyright {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     font-size: 1.5rem;
-}
-
-.copyright{
-    padding-bottom: 3rem;
-    margin-top: 3rem;
-    font-size: 1.1rem;
 }
